@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="38px" height="74px" viewBox="0 0 38 74" enable-background="new 0 0 38 74" xml:space="preserve">
+<g>
+	<path class="ice" fill="#9BD6CA" d="M38,18.131C38,7.359,29.495,0,19.001,0C8.506,0,0,7.359,0,18.131C0,19.049,0,46.36,0,46.36
+		c0,2.149,1.71,3.903,3.801,3.903h30.399c2.091,0,3.799-1.753,3.799-3.903C38,46.36,38,19.049,38,18.131z"/>
+	<path class="stiel" fill="#F7BE68" d="M13.976,69.204C13.976,72.052,16.224,74,19,74c2.775,0,5.027-1.948,5.027-4.796c0-0.242,0-39.563,0-39.563
+		L13.976,29.64C13.976,29.64,13.976,68.961,13.976,69.204z"/>
+	<path class="stiel-shadow" opacity="0.6" fill="#C3A26E" d="M13.976,52.241l10.051,3.907c0-6.152,0-20.854,0-26.508H13.976
+		C13.976,34.346,13.976,46.743,13.976,52.241z"/>
+	<path class="ice" opacity="0.75" fill="#9BD6CA" d="M38,18.131C38,7.359,29.495,0,19.001,0C8.506,0,0,7.359,0,18.131C0,19.049,0,46.36,0,46.36
+		c0,2.149,1.71,3.903,3.801,3.903h30.399c2.091,0,3.799-1.753,3.799-3.903C38,46.36,38,19.049,38,18.131z"/>
+</g>
+</svg>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>evStyle.de</title>
+
+	<link rel="stylesheet" href="summertime-mandness.css" type="text/css" charset="utf-8"/>
+<link rel="icon" href="favicon.ico" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<!-- Start of Woopra Code -->
+<script type="text/javascript">
+function woopraReady(tracker) {
+    tracker.setDomain('evstyle.de');
+    tracker.setIdleTimeout(300000);
+    tracker.track();
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
+</script>
+<!-- End of Woopra Code -->
+
+
+
+<!-- Start of Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38100782-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End of GoogleAnalytics -->
+	
+</head>
+
+<body>
+
+<!-- START SWIMMINGPOOL SOUND -->
+<audio id="swimming-pool" autoplay loop preload="auto">
+	<source src="audio/swimming-pool.mp3" type="audio/mp3" />
+	<source src="audio/swimming-pool.ogg" type="audio/ogg" />
+</audio>
+
+<span id="sound-on-off" class="icon-soundoff pointer" onclick="play_pause()" alt="Play/Pause"></span>
+
+<script>
+function play_pause() {
+  var myAudio = document.getElementById("swimming-pool");
+  var myClass = document.getElementById("sound-on-off");
+  if (myAudio.paused) {
+    myAudio.play();
+	myClass.className = "icon-soundoff pointer"
+  } else {
+    myAudio.pause();
+   	myClass.className = "icon-sound pointer"
+  }
+}
+</script>
+<!-- END SWIMMINGPOOL SOUND -->
+
+<div id="icecream">
+<center>
+<img height="100px" src="img/ice.svg">
+<img class="blue" height="100px" src="img/ice2.svg">
+<img class="yellow" height="100px" src="img/ice3.svg"></center>
+
+<audio id="plopp" preload="auto">
+	<source src="audio/sound3.mp3" />
+	<source src="audio/sound3.ogg" />
+</audio>
+
+<script>$("#icecream img")
+  .each(function(i) {
+    if (i != 0) { 
+      $("#plopp")
+        .clone()
+        .attr("id", "plopp" + i)
+        .appendTo($(this).parent()); 
+    }
+    $(this).data("beeper", i);
+  })
+  .mouseenter(function() {
+    $("#plopp" + $(this).data("beeper"))[0].play();
+  });
+$("#plopp").attr("id", "plopp0");</script>
+
+<h1 class="centered">Summertime Madness</h1>
+
+</div>
+
+
+<!-- div id="section" class="ocean">
+<p>I am a freelance graphic designer based in Munich and Lyon. I create user experiences and corporate identities. For inquiries or portfolio requests please <a href="mailto:ev@evstyle.de">get in touch.</a></p>
+</div>
+
+
+<div id="logo-box" class="ocean centered">
+<p class="centered">Selected Clients</p>
+<img class="logo" src="img/logo/logo-chip.svg">
+<img class="logo" src="img/logo/logo-deeple.svg">
+<img class="logo" src="img/logo/logo-dtu.svg"><br />
+<img class="logo" src="img/logo/logo-freeletics.svg">
+<img class="logo" src="img/logo/logo-orderfox.svg">
+<img class="logo" src="img/logo/logo-wayra.svg">
+</div-->
+
+
+<div id="section" class="group">
+	<div class="col span_2_of_3 sand">
+	<p>I am a freelance graphic designer based in Munich and Lyon. I create unique user experiences and customized corporate identities.</p>
+	<p>For inquiries or portfolio requests please <a href="mailto:ev@evstyle.de">get in touch.</a></p>
+	</div>
+
+	<div class="col span_1_of_3 centered coffee logo">
+	<h2 style="margin-bottom: 60px;">Selected Clients</h2>
+	<div id="logo-container">
+	<a href="https://itunes.apple.com/de/app/chip-online-news-tests-und/id680464707?mt=8"><img class="logo" src="img/logo/logo-chip.svg"></a>
+	<a href="http://deeple.com/"><img src="img/logo/logo-deeple.svg"></a>
+	<a href="http://www.dtu.dk/"><img src="img/logo/logo-dtu.svg"></a>
+	<a href="https://www.freeletics.com"><img src="img/logo/logo-freeletics.svg"></a>
+	<a href="http://www.orderfox.de"><img src="img/logo/logo-orderfox.svg"></a>
+	<a href="http://www.rubiesandrocks.com/"><img src="img/logo/logo-rubiesandrocks.svg"></a>
+	<a href="http://wayra.co/"><img src="img/logo/logo-wayra.svg"></a>
+	</div>
+	</div>
+</div>
+
+
+<footer>
+
+<center>
+<a href="mailto:ev@evStyle.de"><span class="icon-mail"></span></a>
+<a href="http://dribbble.com/evStyle"><span class="icon-dribbble"></span></a>
+<a href="http://twitter.com/evstyledesign"><span class="icon-twitter"></span></a>
+</center>
+</footer>
+
+
+<!--div id="about">
+<center>
+<a href="about.html">PORTFOLIO</a>  |  <a href="about.html">ABOUT</a>
+</center>
+</div-->
+
+</body>
+
+</html>
