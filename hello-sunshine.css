@@ -207,6 +207,8 @@ footer {
 }
 
 
+/* Responsive Grid System using amazing responsivegridsystem.com // THANK YOU */
+
 /*  COLUMN SETUP  */
 .col {
 	display: block;
@@ -356,18 +358,25 @@ footer {
 .icon-soundoff:before {
 	content: "\e606";
 }
+.icon-arrow-down:before {
+	content: "\e607";
+	font-size: 36px;
+}
+.icon-arrow-down:hover {
+	color: #626257;
+}
 
 .icon-soundoff, .icon-sound {
-	color: #939070;
-	opacity: 0.8;
+	color: #626257;
+	opacity: 0.7;
 	top: 18px;
 	right: 18px;
 	position: fixed;
 }
 
 .icon-soundoff:hover, .icon-sound:hover {
-	color: #939070;
-	opacity: 1;
+	color: #626257;
+	opacity: 0.95;
 }
 
 
