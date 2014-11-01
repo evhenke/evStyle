@@ -73,14 +73,15 @@ p {
 	background: #A6D8C3;
 	color: #FEF079;
 	margin: 0;
-	padding: 20% 0 30%;
-	height: 100%;
-	width: 100%;
+	padding: 0;
+	height: 95vh;
 }
+
+
 
 #sunshine img {
 	height: 100px;
-	margin: -45px 0 20px 0;
+	margin: 25vh 0 10px 0;
 	-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
 	-o-transition: 1s ease-in-out;
@@ -95,13 +96,34 @@ p {
 	transform: rotate(360deg);
 }
 
+#arrow-down {
+	margin: 30vh auto;
+}
+
+/*
+:target {
+	-moz-transform: translateY(-100px);
+	-o-transform: translateY(-100px);
+	-webkit-transform: translateY(-100px);
+	transform: translateY(-100px);
+      -webkit-animation: highlight 1s ease;  
+      -moz-animation: highlight 1s ease;
+}
+*/
+
 #section {
 	padding: 0px;
 	margin: 0px;
 	clear: both;
 	width: 100%;
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
+/*	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	-webkit-transition: -webkit-transform 1s ease-in-out;
+	transition: transform 1s ease-in-out;
+	*/
 }
+
 
 #logo-container {
 	padding: 30px;

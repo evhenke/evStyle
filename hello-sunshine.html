@@ -8,30 +8,22 @@
 	<title>evStyle.de</title>
 
 	<link rel="stylesheet" href="hello-sunshine.css" type="text/css" charset="utf-8"/>
-<link rel="icon" href="favicon.ico" />
+	<link rel="icon" href="favicon.ico" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-<!-- Start of Woopra Code -->
-<script type="text/javascript">
-function woopraReady(tracker) {
-    tracker.setDomain('evstyle.de');
-    tracker.setIdleTimeout(300000);
-    tracker.track();
-    return false;
-}
-(function() {
-    var wsc = document.createElement('script');
-    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
-    wsc.type = 'text/javascript';
-    wsc.async = true;
-    var ssc = document.getElementsByTagName('script')[0];
-    ssc.parentNode.insertBefore(wsc, ssc);
-})();
-</script>
-<!-- End of Woopra Code -->
-
-
+    <script>
+        $(document).ready(function (){
+            $("#arrow-down").click(function (){
+                //$(this).animate(function(){
+                    $('html, body').animate({
+                        scrollTop: $("#section").offset().top
+                    }, 2000);
+                //});
+            });
+        });
+    </script>
 
 <!-- Start of Google Analytics -->
 <script type="text/javascript">
@@ -84,7 +76,8 @@ function play_pause() {
 	<source src="audio/wind-up.ogg" />
 </audio>
 
-<script>$("#sunshine img")
+<script>
+$("#sunshine img")
   .each(function(i) {
     if (i != 0) { 
       $("#plopp")
@@ -100,7 +93,8 @@ function play_pause() {
 $("#plopp").attr("id", "plopp0");</script>
 
 <h1 class="centered">Hello Sunshine</h1>
-<center><a href="#section"><span class="icon-arrow-down"></span></a></center>
+
+	<div id="arrow-down" class="centered"><span class="icon-arrow-down"></span></div>
 </div>
 
 
