@@ -13,13 +13,14 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+<!-- Script Arrow Down -->
     <script>
         $(document).ready(function (){
             $("#arrow-down").click(function (){
                 //$(this).animate(function(){
                     $('html, body').animate({
                         scrollTop: $("#section").offset().top
-                    }, 2000);
+                    }, 400);
                 //});
             });
         });
@@ -93,7 +94,6 @@ $("#sunshine img")
 $("#plopp").attr("id", "plopp0");</script>
 
 <h1 class="centered">Hello Sunshine</h1>
-
 	<div id="arrow-down" class="centered"><span class="icon-arrow-down"></span></div>
 </div>
 
