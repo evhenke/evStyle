@@ -41,15 +41,15 @@ a:hover {
 }
 
 h1 {
-	font-size: 36px;
-	line-height: 32px;
+	font-size: 2.250rem;
+	line-height: 0.9;
 	font-weight: normal;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 0.04rem;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 2.5rem;
 	line-height: 38px;
 	font-family: Champagne;
 	font-weight: normal;
@@ -59,14 +59,13 @@ h2 {
 
 p {
 	font-family: Champagne;
-	font-size: 40px;
+	font-size: 2.5rem;
 	line-height: 1.15;
 	font-weight: normal;
 	text-transform: uppercase;
-	margin: 40px 20px 20px 20px;
-	width: 380px;
+	max-width: 380px;
 	text-align: left;
-	padding-left: 70px;
+	padding: 0 15vh 0 4.3rem;
 }
 
 #sunshine {
@@ -80,7 +79,7 @@ p {
 }
 
 #sunshine img {
-	height: 100px;
+	height: 6.25rem;
 	margin: 25vh 0 10px 0;
 	-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
@@ -115,12 +114,12 @@ p {
 */
 
 #section {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	clear: both;
 	width: 100%;
 	height: 100vh;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 /*	-moz-transition: 1s ease-in-out;
 	-o-transition: 1s ease-in-out;
 	-webkit-transition: -webkit-transform 1s ease-in-out;
@@ -134,8 +133,8 @@ p {
 }
 
 .logo img {
-	padding: 25px 25px;
-	height: 60px;
+	padding: 1.5rem;
+	height: 4rem;
 	fill: #C6BF7C;
 	opacity: 0.75;
 }
@@ -226,8 +225,8 @@ footer {
 	width: 100%;
 	padding: 20px 0;
 	margin: 0;
-	bottom: 0px;
-	left: 0px;
+	bottom: 0;
+	left: 0;
 	position: fixed;
 	/* border-top: 1px groove #FEF079; */
 }
@@ -239,7 +238,7 @@ footer {
 .col {
 	display: block;
 	float:left;
-	margin: 0 0 0 0px;
+	margin: 0 0 0 0;
 	width: 100%;
 }
 
@@ -335,11 +334,11 @@ footer {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
-	font-size: 24px;
+	font-size: 1.5rem;
 	text-transform: none;
 	line-height: 1;
 	color: #FEF079;
-	padding: 0 10px;
+	padding: 0 0.4rem;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -388,7 +387,7 @@ footer {
 }
 .icon-arrow-down:before {
 	content: "\e607";
-	font-size: 36px;
+	font-size: 2.25rem;
 	padding: 80px 50px !important;
 	cursor: pointer;
 }
@@ -399,8 +398,8 @@ footer {
 .icon-soundoff, .icon-sound {
 	color: #626257;
 	opacity: 0.5;
-	top: 18px;
-	right: 18px;
+	top: 4.5vh;
+	right: 3vh;
 	position: fixed;
 }
 
